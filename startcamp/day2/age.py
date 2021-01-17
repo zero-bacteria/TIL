@@ -6,7 +6,7 @@ import requests
 
 # name = input()
 
-name = 'david'
+name = input()
 
 url = f'https://api.agify.io/?name={name}'
 
@@ -20,4 +20,4 @@ age = response['age']
 print(f'{name}님의 예상 나이는 {age}살 입니다.')
 
 # 복습할때 api.nationalize.io 로도 해보기
-# 이거 해결해보기
+
