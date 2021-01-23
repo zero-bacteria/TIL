@@ -1,4 +1,4 @@
-# 1월 18일 복습
+# 기초문법(intro) - 1월 18일 복습 
 
 
 
@@ -6,9 +6,16 @@
 
 
 
+* jupyter notebook 은 repl 중의 하나이다.
+* IDLE 하고는 환경도 다르고 단축키도 다르다.
 
 
-## 1. 기초 문법
+
+
+
+
+
+## 기초문법
 
 
 
@@ -47,12 +54,18 @@
   - 사용할 수 있는 메모리양이 정해져 있는 기존의 방식과 달리, 현재 남아있는 만큼의 가용 메모리를 모두 수 표현에 끌어다 쓸 수 있는 형태
   - 특정 값을 나타내는데 4바이트가 부족하다면 5바이트, 더 부족하면 6바이트까지 사용할 수 있게 유동적으로 운용
 
----
+
+
+
+
+
+
+## 데이터타입
 
 * 지수표현은 컴퓨터식 지수표현을 사용할 수 있다. `1.4e-2` / `1.4E-2` 둘다 가능
+
 * 파이썬을 사용하다보면 실제값과 다르게 나올 수 가 있다.
 
----
 
 따라서 다음과 같은 방법으로 처리 할 수 있다. (이외에 다양한 방법이 있음)
 
@@ -96,6 +109,42 @@ True
 
 ---
 
+### 복소수 (complex number)
+
+
+
+* 각각 실수부와 허수부가 있으며 `1+2j` 와 같이 표현된다
+
+* 아래와 같이 타입은 complex 타입이다.
+
+``` python
+  a = 3-4j
+  type(a)
+  
+  #clmplex
+```
+
+* 복소수는 `.real` r그리고 `.imag`를 사용하여 실수부와 허수부를 구분할 수 있다.
+
+  ``` python
+  complex_number = a + bj
+  
+  print(complex_number.real)
+  print(complex_number.imag)
+  
+  # 1.0 ,2.0
+  ```
+
+  
+
+
+
+---
+
+
+
+## 문자타입
+
 * 문자열을 묶을 때 하나로 통일하기 `'`, `"` 혼용 x
 
 * 문자열 안에 `'`,`\` 사용시 `\`를 **앞에** 입력해 활용할 수 있다. 
@@ -105,42 +154,62 @@ True
   print('교수님이 말했다. \'복습은중요해!\'')
   ```
 
-* String interpolation
+  String interpolation
 
-  ```python
-  name = 'david'
-  hobby = 'singing'
-  
-  print('Hi, my name is {}. My hobby is {}' .format(name,hobby))
-  print(f'Hi, my name is {name}. My hobby is {hobby})
-  ```
+```python
+name = 'david'
+hobby = 'singing'
+
+print('Hi, my name is {}. My hobby is {}' .format(name,hobby))
+print(f'Hi, my name is {name}. My hobby is {hobby})
+```
+
+---
+
+### 참거짓 타입
+
+
 
 * 참/거짓을 Boolean 이라고 한다.
 
   * 0, 비어있는것, none 등은 false
   * 시험시 '0'과 같은 트릭에 주의 (True)
-
+  * bool()과 같은 내장함수로 알아낼 수 있다.
+  * 일반적으로 그냥 쓰일 수 있는 경우들이 많다.
 * True와 같은 값은 일반값과 계산 가능!
+* 아무것도 없는 None 타입이 존재한다.
+
+
+
+### 형변환
+
+
 
 * 같은 형태끼리 이어 붙여야한다.
 
-  ```python
-  str(1)+'등'
+* ```python
+  str(1)+'등'  # 1등
   ```
 
-* **논리연산, 단축평가**
+  
 
-  * `and`, `or` 과 같은 논리연산자가 오면 무조건 논리연산으로 생각
+  
 
-  * 괄호먼저 무조건 시행 
+  
 
-    ```python
-    ('a' and 'b') #'b'
-    ('a' or 'b') #'a'
-    vowels = 'aeiou'
-    ('a' and 'b') in vowels  #False
-    ```
+## 연산
 
+* `and`, `or` 과 같은 논리연산자가 오면 무조건 논리연산으로 생각
+
+* 괄호먼저 무조건 시행 
+
+  ```python
+  ('a' and 'b') #'b'
+  ('a' or 'b') #'a'
+  vowels = 'aeiou'
+  ('a' and 'b') in vowels  #False
+  ```
+  
 * `in` 연산자를 통해 요소가 속해있는지 여부를 확인 할 수 있다.
 
 * `is` 연산자를 통해 동일한 object인지 확인 할 수 있다.
