@@ -14,8 +14,18 @@ True
 '''
 
 def check_anagram(text1, text2):
-    pass
 
+    t1 = sorted(text1)
+    t2 = sorted(text2)
+
+   
+    if t1 == t2:
+        return True
+    else :
+        return False
+
+     
+ 
 
 if __name__ == '__main__':
     print(check_anagram('ohlamesaint', 'themonalisa'))  #=> T
