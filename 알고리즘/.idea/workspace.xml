@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02c1e93-473f-4a89-b7cb-882eac7b5014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/11729_하노이탑 이동순서/sol1.py" beforeDir="false" afterPath="$PROJECT_DIR$/11729_하노이탑 이동순서/sol1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/00_django_intro/firstpjt/articles/templates/throw.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django/00_django_intro/firstpjt/articles/templates/throw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/00_django_intro/firstpjt/firstpjt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django/00_django_intro/firstpjt/firstpjt/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,46 +15,58 @@
     <session id="-150416960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="py" value="882" />
+          <entry key="py" value="2186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="882" />
+          <entry key="Python" value="2186" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11729_하노이탑 이동순서/sol1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2504_괄호의 값/sol1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <marker date="1615286642287" expanded="true" signature="65:329" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,12 +82,13 @@
         <option value="$PROJECT_DIR$/6603_로또/sol1.py" />
         <option value="$PROJECT_DIR$/17478_재귀함수가 뭔가요/17478_재귀함수가뭔가요.py" />
         <option value="$PROJECT_DIR$/11729_하노이탑 이동순서/sol1.py" />
+        <option value="$PROJECT_DIR$/2504_괄호의 값/sol1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1913" />
-    <option name="y" value="26" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1001" />
+    <option name="y" value="4" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
   </component>
@@ -84,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,22 +108,28 @@
             <path>
               <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
               <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="11729_하노이탑 이동순서" type="462c0819:PsiDirectoryNode" />
+              <item name="2504_괄호의 값" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
               <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="17478_재귀함수가 뭔가요" type="462c0819:PsiDirectoryNode" />
+              <item name="11729_하노이탑 이동순서" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/algorithm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\SSAFY 코딩\TIL\알고리즘" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sol1 (1)">
+  <component name="RunManager" selected="Python.sol1 (2)">
     <configuration name="17478_재귀함수가뭔가요" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,6 +186,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sol1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2504_괄호의 값" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2504_괄호의 값/sol1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,9 +232,11 @@
       <item itemvalue="Python.sol1" />
       <item itemvalue="Python.17478_재귀함수가뭔가요" />
       <item itemvalue="Python.sol1 (1)" />
+      <item itemvalue="Python.sol1 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol1 (2)" />
         <item itemvalue="Python.sol1 (1)" />
         <item itemvalue="Python.17478_재귀함수가뭔가요" />
         <item itemvalue="Python.sol1" />
@@ -215,16 +257,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="26" width="854" height="1017" extended-state="1" />
+    <frame x="1001" y="4" width="854" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -239,6 +281,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2504_괄호의 값/sol1.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/17478_재귀함수가 뭔가요/17478_재귀함수가뭔가요.py">
@@ -265,7 +318,17 @@
     <entry file="file://$PROJECT_DIR$/11729_하노이탑 이동순서/sol1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2504_괄호의 값/sol1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <marker date="1615286642287" expanded="true" signature="65:329" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

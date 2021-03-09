@@ -27,5 +27,4 @@ urlpatterns = [
     # 원래 했던거를 include 사용하면서 올김
     # path('index/', views.index),
     # path('greeting/', views.greeting),
-    
 ]
